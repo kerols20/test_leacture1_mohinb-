@@ -11,3 +11,4 @@ final getIt = GetIt.instance;
   asExtension: true, // default
 )
 void configureDependencies() => getIt.init();
+// don't forget to call this function in your main.dart file
